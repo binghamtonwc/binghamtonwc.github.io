@@ -1,5 +1,6 @@
 body {
     background: #fff;
+    text-align: center;
 }
 .cover {
     background: url(../images/bu.jpg) no-repeat center center fixed;
@@ -18,15 +19,16 @@ body {
     padding: 220px 10px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
     margin: 0 0 35px;
     font-family: "Ariel", sans-serif;
     font-weight: 500;
     letter-spacing: 1px;
+    color: #8ED9FF;
 }
 
 a {
-    color: #fff;
+    color: #8ED9FF;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -35,7 +37,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1b5e20;
+    color: purple;
 }
 
 section {
@@ -44,8 +46,21 @@ section {
 nav {
     position: fixed;
     top: 0px;
+    z-index: 1;
 }
 
 nav ul li a{
-    color: #1d9b6c;
+    color: #fff;
+}
+
+.card-content {
+    color: #8ED9FF;
+}
+
+.card {
+    z-index: 0;
+}
+
+.card a {
+    color: #8ED9FF;
 }
