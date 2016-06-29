@@ -3,7 +3,7 @@ body {
     text-align: center;
 }
 .cover {
-    background: url(../images/bu.jpg) no-repeat center center fixed;
+    background: url(../images/bu-large.jpg) center center fixed;
     display: table;
     width: 100%;
     height: auto;
@@ -15,8 +15,21 @@ body {
     background-size: cover;
     -o-background-size: cover;
 }
-.jumbotron {
+@media (min-width: 500px){
+    .cover {
+        background: url(../images/bu-large.jpg) no-repeat center center fixed;
+    }
+    .jumbotron {
     padding: 220px 10px;
+}
+
+}
+
+@media (max-width: 499px) {
+    .jumbotron {
+    padding: 120px 10px;
+}
+
 }
 
 h1, h2, h3, h4, h5, h6, p {
