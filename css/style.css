@@ -3,7 +3,7 @@ body {
     text-align: center;
 }
 .cover {
-    background: url(../images/bu-small.jpg) center center fixed;
+    background: url(../images/bu-large.jpg) center center fixed;
     display: table;
     width: 100%;
     height: auto;
