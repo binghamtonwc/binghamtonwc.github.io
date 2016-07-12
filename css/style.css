@@ -3,7 +3,7 @@ body {
     text-align: center;
 }
 .cover {
-    background: url(../images/bu-large.jpg) center center fixed;
+    background: url(../images/bu-small.jpg) center center fixed;
     display: table;
     width: 100%;
     height: auto;
@@ -74,6 +74,19 @@ nav ul li a{
     z-index: 0;
 }
 
-.card a {
+.card-action a {
     color: #8ED9FF;
+}
+
+input:hover,
+input:focuse {
+    text-decoration: none;
+    color: purple;
+}
+
+input {
+    color: #8ED9FF;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
 }
