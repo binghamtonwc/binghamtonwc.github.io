@@ -78,13 +78,13 @@ nav ul li a{
     color: #8ED9FF;
 }
 
-input:hover,
-input:focuse {
+.subscribe:hover,
+.subscribe:focus {
     text-decoration: none;
     color: purple;
 }
 
-input {
+.subscribe {
     color: #8ED9FF;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
